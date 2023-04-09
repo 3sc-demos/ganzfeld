@@ -1,0 +1,17 @@
+		pop	hl
+		ld	a,(hl)
+		or	#03
+		ld	(hl),a
+		inc	l
+		ld	a,(de)
+		or	#E0
+		ld	(hl),a
+		inc	l
+		ld	a,(de)
+		or	#07
+		ld	(hl),a
+		inc	l
+		ld	a,(hl)
+		or	#E0
+		ld	(hl),a
+		inc	e

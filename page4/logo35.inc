@@ -1,0 +1,10 @@
+		pop	hl
+		set	0,(hl)
+		inc	l
+		ld	(hl),b
+		inc	l
+		ld	(hl),b
+		inc	l
+		ld	a,(hl)
+		or	#C0
+		ld	(hl),a

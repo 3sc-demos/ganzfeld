@@ -1,4 +1,4 @@
-if not exist build\ mkdir build\ > NUL
+@if not exist build\ mkdir build
 
 @echo Compiling memory pages...
 

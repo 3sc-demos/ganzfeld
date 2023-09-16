@@ -1,3 +1,5 @@
+if not exist build\ mkdir build\ > NUL
+
 @echo Compiling memory pages...
 
 tools\pasmo.exe --alocal --bin --public page0/page0.asm build/page0.bin build/page0.sym
